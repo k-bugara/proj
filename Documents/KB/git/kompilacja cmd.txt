@@ -1,0 +1,6 @@
+g++ -std=c++14 main.cpp tstring.cpp operatory.cpp -o main.exe -D DEBUG
+g++ -std=c++14 main.cpp tstring.cpp operatory.cpp -o main.exe -D DEBUG -fno-elide-constructors
+
+git add main.cpp main.exe tstring.cpp tstring.h operatory.cpp operatory.h
+
+git commit -m "nazwa"
